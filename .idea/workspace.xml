@@ -10,71 +10,9 @@
     <cargoProject FILE="$PROJECT_DIR$/variables/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93d68e7e-881e-4dc0-80ae-130bcedc443f" name="변경" comment=" 추리 게임">
-      <change afterPath="$PROJECT_DIR$/variables/Cargo.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/learn_rust.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learn_rust.iml" afterDir="false" />
+    <list default="true" id="93d68e7e-881e-4dc0-80ae-130bcedc443f" name="변경" comment="데이터 타입">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/guessing_game/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/guessing_game/target/.rustc_info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/deps/guessing_game.d" beforeDir="false" afterPath="$PROJECT_DIR$/guessing_game/target/debug/deps/guessing_game.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/deps/guessing_game.exe" beforeDir="false" afterPath="$PROJECT_DIR$/guessing_game/target/debug/deps/guessing_game.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/deps/guessing_game.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/guessing_game/target/debug/deps/guessing_game.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/deps/libppv_lite86-1c3e2b1557ca2d05.rlib" beforeDir="false" afterPath="$PROJECT_DIR$/guessing_game/target/debug/deps/libppv_lite86-1c3e2b1557ca2d05.rlib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/deps/librand-50593a24f6a249d9.rlib" beforeDir="false" afterPath="$PROJECT_DIR$/guessing_game/target/debug/deps/librand-50593a24f6a249d9.rlib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/deps/librand_chacha-041a6c024737e34d.rlib" beforeDir="false" afterPath="$PROJECT_DIR$/guessing_game/target/debug/deps/librand_chacha-041a6c024737e34d.rlib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/deps/libzerocopy-ec6e771337ef57aa.rlib" beforeDir="false" afterPath="$PROJECT_DIR$/guessing_game/target/debug/deps/libzerocopy-ec6e771337ef57aa.rlib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/deps/ppv_lite86-1c3e2b1557ca2d05.d" beforeDir="false" afterPath="$PROJECT_DIR$/guessing_game/target/debug/deps/ppv_lite86-1c3e2b1557ca2d05.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/deps/proc_macro2-36d3fb633300b5df.d" beforeDir="false" afterPath="$PROJECT_DIR$/guessing_game/target/debug/deps/proc_macro2-36d3fb633300b5df.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/deps/quote-cc20533b206ce940.d" beforeDir="false" afterPath="$PROJECT_DIR$/guessing_game/target/debug/deps/quote-cc20533b206ce940.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/deps/rand-50593a24f6a249d9.d" beforeDir="false" afterPath="$PROJECT_DIR$/guessing_game/target/debug/deps/rand-50593a24f6a249d9.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/deps/rand_chacha-041a6c024737e34d.d" beforeDir="false" afterPath="$PROJECT_DIR$/guessing_game/target/debug/deps/rand_chacha-041a6c024737e34d.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/deps/syn-fb6c75d9bacdd6e3.d" beforeDir="false" afterPath="$PROJECT_DIR$/guessing_game/target/debug/deps/syn-fb6c75d9bacdd6e3.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/deps/zerocopy-ec6e771337ef57aa.d" beforeDir="false" afterPath="$PROJECT_DIR$/guessing_game/target/debug/deps/zerocopy-ec6e771337ef57aa.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/deps/zerocopy_derive-003ebf99fb2f152b.d" beforeDir="false" afterPath="$PROJECT_DIR$/guessing_game/target/debug/deps/zerocopy_derive-003ebf99fb2f152b.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/deps/zerocopy_derive-003ebf99fb2f152b.dll" beforeDir="false" afterPath="$PROJECT_DIR$/guessing_game/target/debug/deps/zerocopy_derive-003ebf99fb2f152b.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/deps/zerocopy_derive-003ebf99fb2f152b.dll.exp" beforeDir="false" afterPath="$PROJECT_DIR$/guessing_game/target/debug/deps/zerocopy_derive-003ebf99fb2f152b.dll.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/deps/zerocopy_derive-003ebf99fb2f152b.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/guessing_game/target/debug/deps/zerocopy_derive-003ebf99fb2f152b.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/guessing_game.exe" beforeDir="false" afterPath="$PROJECT_DIR$/guessing_game/target/debug/guessing_game.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/guessing_game.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/guessing_game/target/debug/guessing_game.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/0squed1qvbpy6yor69hupaivu.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/1lgn01614c85upxo1t6bmsljs.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/2aey3n91ze1x6qy6tnd9n2dxu.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/2hzieb7ozh7lrls2mc8f500s9.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/30k5nlpdyvqac3dcye6g8a2d1.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/369nlnw7d7np6umy9pdyqhnkf.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/3fr0qd6hlsmn4ulz05u1ig3d4.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/4dm64shq934yy4idow9a82ter.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/4e9mssh9zntba44bnapl01k56.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/5pdpcaefocaeu5rl440krcvrt.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/65r0kr5sh11yirfbnjv6vlexv.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/688nzg5s9ero024b9xfi6lf6h.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/6xzds11134gotx4227dviq9fk.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/7le6n9laa1dlz80ius4r4youw.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/8e8qtbdc07mut8neunnt4050b.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/8ejpkfrzi0zwtnnqc03mw1l9m.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/8emyd8i2zlai1j0ixfwnqupc0.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/8sn90wtpfezr6s93r02y7x5xg.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/9kgkbpoacipgh21a16kttdbr2.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/b0ufxrt4laeko7xbx1ytgjmg2.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/bo4qfddj7xvl1t73fdxp4nkse.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/c19gsf57kesfyg6riw3yfkhbz.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/cdr8biqpzzwquaypwwxtz1pil.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/cegdptl42sfi0ncjsmiqx9hl3.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/d0ubr9dt0spigazi6edhij1ls.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/d1l2fzdfzydmtvw96vmw89su6.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/d5r63uqqko5qzvy0d132n44aq.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/dep-graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/dlnbrju96v3zp1ikqn3kzecmu.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/dwcmbkt1l0f6wj1gyxg1clpf9.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/e21vpufpmz6s9wpwtms2iwgsu.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/f1iegqsw0rhzmkjrkzzzb6n9k.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/query-cache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo-8qlh7rf9gfr5695z0659ut6lr/work-products.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/debug/incremental/guessing_game-1fv8yr2rvuy5l/s-gytdwo29fl-0mjpjzo.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello_cargo/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/hello_cargo/target/.rustc_info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello_world/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/hello_world/target/.rustc_info.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723170855723</updated>
-      <workItem from="1723170856840" duration="8851000" />
+      <workItem from="1723170856840" duration="9149000" />
     </task>
     <task id="LOCAL-00001" summary=" 추리 게임">
       <option name="closed" value="true" />
@@ -157,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723179968255</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="데이터 타입">
+      <option name="closed" value="true" />
+      <created>1723185773903</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723185773903</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +112,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value=" 추리 게임" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 추리 게임" />
+    <MESSAGE value="데이터 타입" />
+    <option name="LAST_COMMIT_MESSAGE" value="데이터 타입" />
   </component>
 </project>
