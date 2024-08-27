@@ -32,9 +32,18 @@ fn main() {
             break counter * 2;
         }
     };
+    
     println!("The result is: {}", result);
 
     let mut count = 0;
+    'counting_down: loop {
+        println!("count = {}", count);
+        count += 1;
+        if count == 10 {
+            break 'counting_down;
+        }
+    }
+
     'counting_up: loop {
         println!("count = {}", count);
         let mut remaining = 10;
@@ -51,6 +60,7 @@ fn main() {
         }
         count += 1;
     }
+
     println!("End count = {}", count);
 
     let mut number = 3;
