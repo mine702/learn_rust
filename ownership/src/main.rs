@@ -5,6 +5,7 @@ fn main() {
     ownership_4_4();
     ownership_4_5();
     ownership_4_6();
+    ownership_4_7();
 }
 
 fn ownership_4_1() {
@@ -59,11 +60,23 @@ fn ownership_4_5() {
 
 fn ownership_4_6() {
     let s1 = String::from("hello");
-    let (s2, len) = calculate_length(&s1);
+    let (s2, len) = calculate_length(s1);
     println!("The length of '{}' is {}.", s2, len);
 }
 
-fn calculate_length(s: &String) -> (String, usize) {
+fn ownership_4_7() {
+    let s1 = String::from("hello");
+    let (s2, len) = calculate_length_ref(&s1);
+    println!("The length of '{}' is {}.", s2, len);
+    println!("The length of '{}' is {}.", s1, len);
+}
+
+fn calculate_length_ref(s: &String) -> (String, usize) {
+    let length = s.len();
+    (s.to_string(), length)
+}
+
+fn calculate_length(s: String) -> (String, usize) {
     let length = s.len();
     (s.to_string(), length)
 }
