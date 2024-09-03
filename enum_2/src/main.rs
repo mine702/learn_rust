@@ -3,6 +3,9 @@ fn main() {
     listening_6_2();
     listening_6_4();
     listening_6_5();
+    listening_6_6();
+    listening_6_7();
+    listening_6_8();
 }
 
 enum Coin {
@@ -45,6 +48,33 @@ fn listening_6_5() {
         5 => println!("five"),
         7 => println!("seven"),
         _ => (),
+    }
+}
+
+fn listening_6_6() {
+    let some_u8_value = Some(3);
+
+    if let Some(3) = some_u8_value {
+        println!("three");
+    }
+}
+
+fn listening_6_7() {
+    let mut count = 0;
+    let coin = Coin::Quarter(UsState::Alaska);
+    match coin {
+        Coin::Quarter(state) => println!("State quarter from {:?}!", state),
+        _ => count += 1,
+    }
+}
+
+fn listening_6_8() {
+    let mut count = 0;
+    let coin = Coin::Quarter(UsState::Alaska);
+    if let Coin::Quarter(state) = coin {
+        println!("State quarter from {:?}!", state);
+    } else {
+        count += 1;
     }
 }
 
