@@ -30,3 +30,13 @@ fn try_me() {
 }
 pub mod client;
 pub mod network;
+
+#[cfg(test)]
+mod tests2 {
+    use super::client;
+
+    #[test]
+    fn it_works() {
+        client::connect();
+    }
+}
