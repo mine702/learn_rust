@@ -9,6 +9,10 @@ fn main() {
     listing_8_8();
     listing_8_9();
     listing_8_10();
+    listing_8_11();
+    listing_8_12();
+    listing_8_13();
+    listing_8_14();
 }
 
 fn listing_8_1() {
@@ -90,4 +94,38 @@ fn listing_8_10() {
         SpreadsheetCell::Text(String::from("blue")),
         SpreadsheetCell::Float(10.12),
     ];
+}
+
+fn listing_8_11() {
+    let s1 = String::from("tic");
+    let s2 = String::from("tac");
+    let s3 = String::from("toe");
+
+    let s = s1 + "-" + &s2 + "-" + &s3;
+    println!("{}", s);
+}
+
+fn listing_8_12() {
+    let s1 = String::from("tic");
+    let s2 = String::from("tac");
+    let s3 = String::from("toe");
+
+    let s = format!("{}-{}-{}", s1, s2, s3);
+    println!("{}", s);
+}
+
+fn listing_8_13() {
+    let hello = "Здравствуйте";
+    let s = &hello[0..4];
+    println!("{}", s);
+}
+
+fn listing_8_14() {
+    for c in "नमस्ते".chars() {
+        println!("{}", c);
+    }
+
+    for b in "नमस्ते".bytes() {
+        println!("{}", b);
+    }
 }
